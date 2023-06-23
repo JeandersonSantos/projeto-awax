@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    background-color: #000;
+}
+.header{
+    max-width: 1140px;/*largura máxima*/
+    height: 100px;
+    background-color: red;
+    margin: auto;/*deixa no meio automáticamente*/
+}
