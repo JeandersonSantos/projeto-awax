@@ -57,5 +57,13 @@ header{
 .menu li a:hover,
 .menu .active a {
     border-bottom: 5px solid #B28756;
+    color: #ccc;
 }
-
+/*Banner*/
+.banner{
+    height: calc(100vh - 100px);/*100 vh pega o tamanho total da altura do monitor, porem com o cal estou descontado o tamnho do header*/
+    background-color:#333;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
