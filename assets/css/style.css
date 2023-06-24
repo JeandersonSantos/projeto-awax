@@ -66,4 +66,15 @@ header{
     background-image: url('../images/bg.jpg');
     background-size: cover;
     background-position: bottom;
+    overflow: hidden;/*tudo que passar o conteúdo que está dentro dele ele vai ignorar*/
+}
+.banner .sliders{
+width: 100vw;
+height: 100%;
+}
+.banner .slide{
+    width: 100vw;
+    height: 100%;
+    display: inline-block;/*o inline é para deixar um ao lado do  outro e o block é para ele manter as propocionalidade*/
+    background-color: rgba(0,0, 0, 0.8);
 }
