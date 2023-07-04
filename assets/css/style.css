@@ -6,6 +6,7 @@
 body{
     font-family: 'Montserrat',Arial,Arial, Helvetica,sans-serif;
     font-size: 13px;
+    overflow-x:hidden;/*todo conteúdo que utrapassar a horizontal vai ser ignorado, serc para tirar a barra horizontal*/
 }
 header{
     height: 100px;
@@ -131,4 +132,8 @@ height: 100%;
 }
 .banner .pointer.active{
     background-color: #B28756;
+}
+/*About*/
+.default{
+    background-color: red;
 }
