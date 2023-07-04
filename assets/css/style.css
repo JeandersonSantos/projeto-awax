@@ -61,7 +61,22 @@ header{
     border-bottom: 5px solid #B28756;
     color: #ccc;
 }
+
+.button {
+    display: inline-block;
+    background-color: #B28756;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
 /*Banner*/
+
 .banner{
     height: calc(100vh - 100px);/*100 vh pega o tamanho total da altura do monitor, porem com o cal estou descontado o tamnho do header*/
     background-color:#333;
@@ -100,18 +115,7 @@ height: 100%;
     text-transform: uppercase;
     margin-top: 20px;
 }
-.banner a {
-    display: block;
-    background-color: #B28756;
-    color:#fff;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius: 20px;
-}
+
 .banner .sliders-pointers{
     width: 100vw;
     height: 20px;
@@ -156,18 +160,39 @@ height: 100%;
 .default .section-body{
     max-width: 1140px;
     margin: auto;
-    min-height: 100px;
-    background-color: #CCC;
 }
 .default.light {
     background-color: #F7F7F7;
 }
-.default.light .section-title{
+.default.light .section-title,
+.default.ligth .section-body{
     color: #000;
 }
 .default.dark {
     background-color: #000;
 }
-.default.dark .section-title{
+.default.dark .section-title,
+.default.dark .section-body{
     color: #FFF;
+}
+
+/*CSS DE ÁREAS ESPECÍFICAS*/
+
+.section-aboutus{
+    display: flex;
+}
+.section-aboutus--left{
+    flex: 1;
+}
+.section-aboutus--left p{
+    font-size: 14px;
+    line-height: 25px; /*Espaçamento entre linhas*/
+}
+.section-aboutus--right{
+    width: 520px;
+    text-align: center;
+}
+.section-aboutus--right img{
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
 }
