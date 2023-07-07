@@ -387,6 +387,40 @@ height: 100%;
         background-color: #B28756;
     }
     /*Reviwes*/
+    .section-reviews--avatar{
+        width: 150px;
+        height: auto;
+    }
+
+    .section-reviews--name{
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 30px;
+        font-size:17px;
+    }
+    .section-reviews--role{
+        font-size:14px;
+        color:#999;
+        margin-top:5px;
+    }
     .reviews-area{
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-reviews--quote{
+        margin: 30px;
+    }
+    .section-reviews--testimony{
+        overflow: hidden;/*remove a área desperdiçada*/
+        max-width: 880px;
+        margin: auto;
+        text-align: center;
+    }
+    .reviews-area .sliders-pointers{
+        margin-top: 30px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
