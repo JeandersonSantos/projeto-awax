@@ -366,8 +366,23 @@ height: 100%;
         font-size:17px;
     }
     .section-team--role{
-
+        font-size:14px;
+        color:#999;
+        margin-top:5px;
     }
     .section-team--social{
-
+        display: flex;
+        margin-top: 20px;
+    }
+    .section-team--social a {
+        display: inline-flex;/*para poder usar o justify-content*/
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        height: 25px;
+        background-color: #ccc;
+        margin-right: 10px;
+    }
+    .section-team--social a:hover {
+        background-color: #B28756;
     }
