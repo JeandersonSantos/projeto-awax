@@ -417,6 +417,9 @@ height: 100%;
         margin: auto;
         text-align: center;
     }
+    .section-reviews{
+        background-color:#eaeaea;
+    }
     .section-reviews .sliders-pointers{
         margin-top: 30px;
         height: 20px;
@@ -435,4 +438,18 @@ height: 100%;
     }
     .section-reviews .pointer.active{
         background-color: #B28756;
+    }
+/*-----------------------------------------------------------------------*/
+    .section-empresas{
+        background-color: #fff;
+    }
+    .section-list-empresas{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        max-width: 1140px;
+        margin: auto;
+    }
+    .section-logo-empresa{
+        flex: 1;
     }
