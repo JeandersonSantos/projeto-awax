@@ -417,10 +417,22 @@ height: 100%;
         margin: auto;
         text-align: center;
     }
-    .reviews-area .sliders-pointers{
+    .section-reviews .sliders-pointers{
         margin-top: 30px;
         height: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .section-reviews .pointer{
+        width: 15px;
+        height: 15px;
+        border: 2px solid #B28756;
+        border-radius:8px;
+        margin-left:5px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .section-reviews .pointer.active{
+        background-color: #B28756;
     }
