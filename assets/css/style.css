@@ -497,3 +497,35 @@ height: 100%;
     width: 120px;
     text-align: center;
 }
+/*--------------------------------------------------------------------------------------*/
+/*Secrion-Feature*/
+.section-feature-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.section-feature-box, .section-feature-desc-container{
+    flex: 1;
+}
+.section-feature-box{
+    text-align: end;
+}
+.section-feature-desc-title{
+    display: flex;
+    align-items: center;
+}
+.section-feature-desc-title img{
+    margin-right: 15px;
+}
+.section-feature-desc-title span{
+    font-weight: bold;
+    font-size: 15px;
+}
+.section-feature-desc-desc{
+    padding-left: 50px;
+    line-height: 1.5;
+}
+.section-feature-desc{
+    margin-bottom: 20px;
+}
