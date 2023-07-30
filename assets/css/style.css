@@ -453,3 +453,47 @@ height: 100%;
     .section-logo-empresa{
         flex: 1;
     }
+/*----------------------------------------------------------------------*/
+.section-price{
+    background-color: #eaeaea;
+}
+.section-price-cart-container{
+    display: flex;
+    justify-content: center;
+}    
+.section-price-cart{
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+.section-price-title{
+    font-size: 12px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.section-price-price{
+    font-size: 18px;
+    font-weight:bold;
+}
+.section-price-month{
+    margin-bottom: 15px;
+}
+.section-price-list ul, li{
+    list-style: none;
+    text-align: center;
+}
+.section-price-list{
+    margin-bottom: 20px;
+}
+.section-price-button{
+    background-color: #000;
+    color: #FFF;
+    border-radius: 25px;
+    padding: 12px;
+    width: 120px;
+    text-align: center;
+}
