@@ -556,5 +556,80 @@ height: 100%;
     width: 80%;
     margin-top: 33px;
     border: 0.5px solid #acacac;
+}
+/*--------------------------------------------------------------------------*/
+/*---------------------------FACTS-------------------------------------------*/
+.section-facts{
+    display: flex;
+}
+.section-fact{
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+}
+.section-fact h4{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.section-fact p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
+.section-fact-row{
+    display: flex;
+    justify-content: center;
+}
+.section-fact hr {
+    border: solid 1px #b28756;
+    width: 10%;
+}
+.section-fact span {
+    color: #b28756;
+    font-weight: bold;
+    font-size: 40px;
+}
+.section-fact-rede{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-fact-rede-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-fact-rede-icon .circle img {
 
 }
+.section-fact-rede-icon .circle{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.color-twitter{
+    background-color: #00a7e5;
+}
+.color-linkedin{
+    background-color: #0a66c2;
+}
+.color-facebook{
+    background-color: #1876f2;
+}
+.color-googleplus{
+    background-color: #d75145;
+}
+.color-pinterest{
+    background-color: #e50015;
+}
+/*------------------------------------------------------------------*/
+/*----------------*/
