@@ -710,3 +710,121 @@ height: 100%;
     width: 15px;
     height: auto;
 }
+/*-------------------------------------------------------------------*/
+/*Footer*/
+.section-footer{
+    display: flex;
+    justify-content: center;
+}
+.container-footer{
+    max-width: 1140px; 
+    display: flex;
+    flex-direction: column;
+}
+.container-footer-top{
+    display: flex;
+    flex-direction: row;
+}
+.section-footer-col1, .section-footer-col2, .section-footer-col3{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.container-redes-footer{
+    display: flex;
+}
+.container-redes-footer .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50px;
+    background-color: #555;
+    width: 30px;
+    height: 30px;
+}
+.container-redes-footer .img-instagram, .container-redes-footer .img-youtube{
+    width: 20px;
+    height: auto;
+}
+.img-youtube{
+    margin-top: 7.5px;
+    margin-left: 0.5px;
+}
+.container-redes-footer span{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+.container-copywriter{
+    color: #fff;
+}
+.section-footer-col1{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: start;
+}
+.section-footer-col1 .container-copywriter {
+    margin-bottom: 20px;
+}
+.section-footer-col2{
+    padding-right: 50px;
+    text-align: justify;
+}
+.section-footer-col2 span{
+    color: #fff;
+}
+.hr-footer{
+    margin-top: 20px;
+}
+.section-footer-col3{
+    background-color: #555;
+    display: flex;
+    flex-direction: column;
+}
+.section-form-footer #email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.section-form-footer #email input{
+    background: #ffffff00;
+    border: none; /* Remove a borda */
+    border-bottom: 2px solid #acacac; /* Adiciona a borda de baixo com cor e espessura desejadas */
+    padding: 0; /* Remove o preenchimento */
+    margin: 0; /* Remove a margem para evitar espaçamento extra */
+    display: block; /* Por padrão, inputs são elementos em linha, isso os transforma em elementos de bloco */
+    width: 100%;    
+}
+.additional-footer{
+    height: 214px;
+}
+.additional-footer span{
+    color: #fff;
+    font-size: 70px;
+    font-weight: lighter;
+}
+.section-footer-additional-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-footer-add{
+    text-align: center;
+    width: 1140px; 
+    display: flex;
+    justify-content: center;
+}
+.container-footer-add{
+    width: 100%;
+}
+.additional-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+}
