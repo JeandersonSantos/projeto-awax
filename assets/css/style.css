@@ -1034,3 +1034,16 @@ li {
     top: -20px;
     margin-left: 50px;
 }
+/*--------------------------------------------------------------------*/
+/*Resposivo*/
+@media (min-width:450px) and (max-width:800px){
+    nav {
+        position: absolute;/*para ficar flutuante*/
+        z-index: 99;/*para ficar em cima*/
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+}
