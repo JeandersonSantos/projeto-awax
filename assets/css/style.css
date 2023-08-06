@@ -560,7 +560,9 @@ header {
     display: flex;
     justify-content: center;
 }
-
+.section-price-cart-container:last-child{
+    margin-right: 30px;
+}
 .section-price-cart {
     background-color: #fff;
     width: 300px;
@@ -570,7 +572,6 @@ header {
     align-items: center;
     margin-left: 30px;
 }
-
 .section-price-title {
     font-size: 12px;
     font-weight: bolder;
@@ -990,40 +991,6 @@ li {
     width: 100%;
 }
 
-.additional-footer {
-    height: 214px;
-}
-
-.additional-footer span {
-    color: #fff;
-    font-size: 70px;
-    font-weight: lighter;
-}
-
-.section-footer-additional-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.section-footer-add {
-    text-align: center;
-    width: 1140px;
-    display: flex;
-    justify-content: center;
-}
-
-.container-footer-add {
-    width: 100%;
-}
-
-.additional-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: start;
-}
-
 .button-footer {
     background-color: #B28756;
     display: flex;
@@ -1112,5 +1079,45 @@ li {
     }
     .section-map--info-item:last-child{
         margin-bottom: 0;
+    }
+
+    .container-redes-footer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    .container-redes-footer div {
+        margin-bottom: 20px;
+    }
+    .container-copywriter{
+        margin-left: 20px;
+    }
+    .section-footer-col3 {
+        margin-right: 20px;
+    }
+    .section-reviews--testimony {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section-feature-box {
+        margin-left: 20px;
+    }
+    .section-feature-desc-container{
+        margin-right:20px;
+    }
+
+    .section-facts{
+        flex-wrap: wrap;
+    }
+    .section-fact{
+        min-width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .section-price-cart-container{
+        flex-wrap: wrap;
+    }
+    .section-price-cart{
+        margin-bottom: 30px;
     }
 }
