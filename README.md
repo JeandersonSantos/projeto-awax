@@ -10,4 +10,5 @@ Este projeto destina-se a elaboração de um site que foi desenvolvido inspirand
 ## Créditos
 Foi codado parcialmente no curso B7WEB e parcialmente por mim 
 
-
+Veja o site [clicando aqui](https://jeandersonsantos.github.io/proje
+to-awax/)
